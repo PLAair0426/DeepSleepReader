@@ -1,0 +1,40 @@
+/.git/
+
+# Local QA data and extracted runtime backups
+/.codex-qa/chromium-user-data/
+/.codex-qa/chromium-user-data-inspect/
+/.codex-qa/test-user-data/
+/.codex-qa/app-sandbox/
+/.codex-qa/appdata/
+/.codex-qa/localappdata/
+/.codex-qa/*.png
+/.codex-qa/**/*.sqlite
+/.codex-qa/**/*.log
+/resources/app.asar
+/resources/app.asar.original
+/resources/app.asar.unpacked/
+/resources/default_app.asar
+/resources/elevate.exe
+/resources/native/
+
+# Packaged Windows runtime binaries
+/*.exe
+/*.dll
+/*.pak
+/*.bin
+/*.dat
+/chrome_100_percent.pak
+/chrome_200_percent.pak
+/resources.pak
+/snapshot_blob.bin
+/v8_context_snapshot.bin
+/vk_swiftshader.dll
+/vk_swiftshader_icd.json
+/vulkan-1.dll
+/locales/
+
+# Unrelated local documents
+/*.docx
+
+# Keep the unpacked app bundle lean
+/resources/app/node_modules/

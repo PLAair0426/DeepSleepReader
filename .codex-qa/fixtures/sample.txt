@@ -1,0 +1,6 @@
+DeepSleepReader QA Sample TXT
+
+This text document is used to verify import, full-text search, reading position, bookmarks, and annotations.
+
+Unique keyword: aurora-txt-31415.
+Chinese keyword: 深睡阅读测试。
